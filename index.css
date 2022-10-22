@@ -1,0 +1,134 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 380px;
+    height: 600px;
+    border-radius: 4%;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.myImage{
+    width: 330px;
+    height: 320px; 
+    border-radius: 4%;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    right: 25px;
+}
+.overlay{
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    width: 330px;
+    height: 320px; 
+    border-radius: 4%;
+    top: 20px;
+    left: 25px;
+    right: 25px;
+    opacity: 0;
+    cursor: pointer;
+}
+.overlay:hover {
+    opacity: 0.7;
+}
+.myIcon{
+    position: relative;
+    left: 140px;
+    top: 130px
+}
+.myTitle{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    position: absolute;
+    font-weight: normal;
+    left: 25px;
+    right: 200px;
+    top: 340px;
+    cursor: pointer;
+}
+.myTitle:hover{
+    color: hsl(178, 100%, 50%);
+    
+}
+.myPara{
+    color: hsl(214, 10%, 48%);
+    position: absolute;
+    left: 25px;
+    top: 390px;
+    right: 20px;
+    font-weight: normal;
+    font-family: 'Outfit', sans-serif;
+}
+.ethereum{
+    position: absolute;
+    left: 25px;
+    top: 480px;
+}
+.price{
+    position: absolute;
+    left: 45px;
+    top: 460px;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+}
+.myClock{
+    position: absolute;
+    left: 240px;
+    top: 485px;
+}
+.myTime{
+    color: hsl(214, 10%, 48%);
+    position: absolute; 
+    left: 265px;
+    top: 460px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+}
+hr{
+    position: absolute; 
+    text-align: center;
+    width: 320px;
+    left: 25px;
+    top: 510px;
+    
+    color: white
+}
+.myAvatar{
+    position: absolute; 
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: white;
+    left: 25px;
+    top: 540px;
+}
+.myCreation{
+    color: hsl(214, 10%, 48%);
+    position: absolute; 
+    left: 70px;
+    top: 522px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+}
+.theCreator{
+    color: hsl(210, 17%, 95%);
+    position: absolute; 
+    left: 155px;
+    top: 522px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+    font-weight: normal;
+}
+.theCreator:hover{
+    color: hsl(178, 100%, 50%);
+}
